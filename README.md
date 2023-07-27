@@ -1,2 +1,2 @@
 # Decision-Tree-AI-for-Wordle
-An algorithm to automatically find the word for the NYTimes Wordle
+An algorithm to automatically find the word for the NYTimes Wordle. It works by building a decision tree of all possible choices for characters. It guesses taking the best combination of characters that build a valid word recognized by Wordle. The decision tree is updated with each guess, removing all other branches at the height when a green letter is found and only removing branches without any yellow letters in them, if possible. 
